@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jpa.controller.bookmanager.domain.UserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-09T10:26:56" hostname="DESKTOP-KIIC8P4" time="0.022">
+  <properties/>
+  <testcase name="test()" classname="jpa.controller.bookmanager.domain.UserTest" time="0.022"/>
+  <system-out><![CDATA[>>> +User(name=Adam, email=steve@gamail.com, createdAt=null, updatdAt=null)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

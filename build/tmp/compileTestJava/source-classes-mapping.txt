@@ -1,0 +1,6 @@
+jpa/controller/HelloWorldControllerTest.java
+ jpa.controller.HelloWorldControllerTest
+objectmapper/test/ObjectMapperApplicationTests.java
+ objectmapper.test.ObjectMapperApplicationTests
+jpa/controller/bookmanager/domain/UserTest.java
+ jpa.controller.bookmanager.domain.UserTest
