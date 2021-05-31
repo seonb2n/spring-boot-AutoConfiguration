@@ -19,36 +19,12 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Files;
-
+@SpringBootApplication
 public class Application {
 
-    public static void main(String[] args) throws LifecycleException, IOException {
-        Tomcat tomcat = new Tomcat();
-
-        tomcat.setPort(8080);
-        tomcat.getConnector();
-
-        String docBase = Files.createTempDirectory("tomcat-basedir").toString();
-
-        Context context = tomcat.addContext("/", docBase);
-
-        HttpServlet servlet = new HttpServlet() {
-            @Override
-            protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-                PrintWriter writer = resp.getWriter();
-                writer.println("<html><head><title>");
-                writer.println("Hey, Tomcat");
-                writer.println("</title></head");
-                writer.println("<body><h1>Hello Tomcat</h1></body>");
-                writer.println("</html>");
-            }
-        };
-
-        String servletName = "Hello Servlet";
-        tomcat.addServlet("/", servletName, servlet);
-        context.addServletMappingDecoded("/hello",servletName);
-
-        tomcat.start();
+    public static void main(String[] args) {
+        SpringApplication application = new SpringApplication(Application.class);
+        application.run(args);
 
     }
 }
