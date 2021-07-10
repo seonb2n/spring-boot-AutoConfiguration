@@ -1,5 +1,6 @@
 package Application.controller;
 
+import Application.annotation.Timer;
 import Application.component.Calculator;
 import Application.component.ICalculator;
 import lombok.RequiredArgsConstructor;
@@ -20,6 +21,12 @@ public class CalculatorApiController {
     @GetMapping("/minus")
     public int minus(@RequestParam int x, @RequestParam int y) {
         return calculator.minus(x, y);
+    }
+
+    @Timer
+    @GetMapping("/timerTest")
+    public void timer() throws InterruptedException{
+        Thread.sleep(1000*3);
     }
 
 }
