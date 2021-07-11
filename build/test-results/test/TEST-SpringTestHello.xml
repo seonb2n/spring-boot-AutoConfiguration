@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SpringTestHello" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-07T13:06:45" hostname="DESKTOP-KIIC8P4" time="0.02">
-  <properties/>
-  <testcase name="SpringTest()" classname="SpringTestHello" time="0.02"/>
-  <system-out><![CDATA[hello Spring
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

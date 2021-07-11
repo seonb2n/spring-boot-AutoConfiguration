@@ -10,9 +10,13 @@ Application/Application.java
  Application.Application
 Application/component/MarketApi.java
  Application.component.MarketApi
-Application/controller/ApiController.java
- Application.controller.ApiController
 Application/annotation/Timer.java
  Application.annotation.Timer
+Application/validator/PhoneValidator.java
+ Application.validator.PhoneValidator
+Application/annotation/ValidatePhone.java
+ Application.annotation.ValidatePhone
+Application/controller/ApiController.java
+ Application.controller.ApiController
 dto/User.java
  dto.User
