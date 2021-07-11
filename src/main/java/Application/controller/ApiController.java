@@ -20,6 +20,11 @@ public class ApiController {
 
     private final Calculator calculator;
 
+    @GetMapping("/swagger")
+    public String swaggerTest() {
+        return "swagger";
+    }
+
     @GetMapping("/sum")
     public int sum(@RequestParam int x, @RequestParam int y) {
         return calculator.sum(x, y);

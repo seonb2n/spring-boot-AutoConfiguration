@@ -1,5 +1,9 @@
+Application/validator/PhoneValidator.java
+ Application.validator.PhoneValidator
 Application/component/DollarCalculator.java
  Application.component.DollarCalculator
+Application/annotation/ValidatePhone.java
+ Application.annotation.ValidatePhone
 Application/component/ICalculator.java
  Application.component.ICalculator
 Application/aop/TimerAop.java
@@ -10,13 +14,9 @@ Application/Application.java
  Application.Application
 Application/component/MarketApi.java
  Application.component.MarketApi
-Application/annotation/Timer.java
- Application.annotation.Timer
-Application/validator/PhoneValidator.java
- Application.validator.PhoneValidator
-Application/annotation/ValidatePhone.java
- Application.annotation.ValidatePhone
 Application/controller/ApiController.java
  Application.controller.ApiController
+Application/annotation/Timer.java
+ Application.annotation.Timer
 dto/User.java
  dto.User

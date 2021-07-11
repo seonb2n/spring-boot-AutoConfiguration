@@ -20,8 +20,8 @@ dependencies {
     compileOnly("org.projectlombok:lombok")
 
     testImplementation('org.springframework.boot:spring-boot-starter-test')
-    testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.9.0'
-    testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: '3.9.0'
+
+    implementation group: 'io.springfox', name: 'springfox-boot-starter', version: '3.0.0'
 }
 
 test {
