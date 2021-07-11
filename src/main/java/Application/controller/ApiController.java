@@ -4,6 +4,7 @@ import Application.annotation.Timer;
 import Application.component.Calculator;
 import Application.component.ICalculator;
 import dto.User;
+import io.swagger.annotations.Api;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
+@Api(tags = {"API 정보를 제공하는 Controller"})
 @RestController
 @RequestMapping("/api")
 @RequiredArgsConstructor
